@@ -14,6 +14,7 @@ tags={
 	"Leaders"
 	"Military"
 	"Species"
+	"Utilities"
 }
 version="1.0.0"
 picture="thumbnail.png"
