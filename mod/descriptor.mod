@@ -1,4 +1,4 @@
-name="Compatibility: Subtle Polish and Silfae's Revisited"
+name="Compatibility: Subtle Polish and Silfae's Portraits: Revisited"
 dependencies={
 	"Subtle Polish: A Collection of Fixes and Enhancements"
 	"Silfae's Portraits: Revisited"
