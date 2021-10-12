@@ -508,6 +508,18 @@ dimensional_portal_researcher = {
 			factor = 1.5
 			has_trait = trait_necrophage
 		}
+		modifier = {
+			factor = 2
+			has_trait = trait_hologanglion
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_trait = trait_holofrixigram
+				has_trait = trait_holofrixigram_2
+				has_trait = trait_holofrixigram_3
+			}
+		}
 	}
 }
 
@@ -747,6 +759,10 @@ dimensional_portal_researcher_gestalt = {
 			factor = 0.1
 			can_take_servant_job = yes
 		}
+		modifier = {
+			factor = 2
+			has_trait = trait_hologanglion
+		}
 	}
 }
 
@@ -764,7 +780,6 @@ gas_plant_engineer = {
 
 	possible_pre_triggers = {
 		has_owner = yes
-		is_enslaved = no
 		is_being_purged = no
 		is_being_assimilated = no
 		is_sapient = yes
@@ -960,6 +975,14 @@ cave_cleaner = {
 			}
 			has_trait = trait_repugnant
 		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_trait = trait_holofrixigram
+				has_trait = trait_holofrixigram_2
+				has_trait = trait_holofrixigram_3
+			}
+		}
 	}
 }
 
@@ -1006,10 +1029,18 @@ cave_cleaner_gestalt = {
 
 	weight = {
 		weight = @simple_drone_job_weight
+		modifier = {
+			factor = 0
+			OR = {
+				has_trait = trait_holofrixigram
+				has_trait = trait_holofrixigram_2
+				has_trait = trait_holofrixigram_3
+			}
+		}
 	}
 }
 
-# Dinosaur Hunters
+#Dinosaur Hunters
 # Modified: Removed the amenities-related weights for agrarian idyll (lithoid)
 titan_hunter = {
 	category = worker
@@ -1276,7 +1307,7 @@ robot_caretaker = {
 	}
 }
 
-# Turtle Miner Regular
+#Turtle Miner Regular
 # Modified: Added amenities for agrarian idyll (lithoid)
 turtle_miner = {
 	category = worker
@@ -1323,7 +1354,7 @@ turtle_miner = {
 		produces = {
 			trigger = {
 				OR = {
-					owner = {
+					owner = { 
 						has_valid_civic = civic_mining_guilds
 						has_valid_civic = civic_machine_rockbreakers
 					}
@@ -1448,7 +1479,6 @@ turtle_miner = {
 			}
 			has_trait = trait_repugnant
 		}
-
 		modifier = {
 			factor = 0.5
 			has_trait = trait_lithoid
@@ -1459,6 +1489,14 @@ turtle_miner = {
 					resource = food
 					value >= 0
 				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_trait = trait_holofrixigram
+				has_trait = trait_holofrixigram_2
+				has_trait = trait_holofrixigram_3
 			}
 		}
 	}
@@ -1482,7 +1520,6 @@ turtle_miner_gestalt = {
 	possible = {
 		drone_job_check_trigger = yes
 	}
-
 
 	resources = {
 		category = planet_miners
@@ -1511,7 +1548,7 @@ turtle_miner_gestalt = {
 		produces = {
 			trigger = {
 				OR = {
-					owner = {
+					owner = { 
 						has_valid_civic = civic_mining_guilds
 						has_valid_civic = civic_machine_rockbreakers
 					}
@@ -1580,7 +1617,6 @@ turtle_miner_gestalt = {
 			factor = 1.1
 			has_trait = trait_nerve_stapled
 		}
-
 		modifier = {
 			factor = 0.5
 			has_trait = trait_lithoid
@@ -1591,6 +1627,14 @@ turtle_miner_gestalt = {
 					resource = food
 					value >= 0
 				}
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_trait = trait_holofrixigram
+				has_trait = trait_holofrixigram_2
+				has_trait = trait_holofrixigram_3
 			}
 		}
 	}
