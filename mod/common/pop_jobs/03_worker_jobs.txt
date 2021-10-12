@@ -274,6 +274,23 @@ technician = {
 		#	}
 		#}
 
+		modifier = {
+			weight = @specialist_job_weight
+			OR = {
+				has_trait = trait_holofrixigram
+				has_trait = trait_holofrixigram_2
+				has_trait = trait_holofrixigram_3
+			}
+		}
+		modifier = {
+			factor = 5
+			OR = {
+				has_trait = trait_holofrixigram
+				has_trait = trait_holofrixigram_2
+				has_trait = trait_holofrixigram_3
+			}
+		}
+
 		# low income modifier
 		modifier = {
 			factor = 250
@@ -330,8 +347,8 @@ miner = {
 		produces = {
 			minerals = 4
 		}
-		}
-	
+	}
+
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
@@ -458,6 +475,14 @@ miner = {
 			has_trait = trait_void_dweller_1
 			exists = planet
 			planet = { is_artificial = no }
+		}
+		modifier = {
+			factor = 0
+			has_trait = trait_holofrixigram
+		}
+		modifier = {
+			factor = 0.5
+			has_trait = trait_holofrixigram_2
 		}
 
 		# low income modifier
@@ -1422,6 +1447,21 @@ soldier = {
 			factor = 2
 			has_trait = trait_lithoid
 		}
+		modifier = {
+			factor = 0.5
+			has_trait = trait_holofrixit
+			NOR = {
+				has_trait = trait_holowarrior
+				has_trait = trait_holowarrior_2
+			}
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				has_trait = trait_holowarrior
+				has_trait = trait_holowarrior_2
+			}
+		}
 	}
 }
 
@@ -1675,6 +1715,7 @@ mortal_initiate = {
 		}
 	}
 }
+
 # Modified: Added amenities for agrarian idyll (lithoid)
 scrap_miner = {
 	category = worker
@@ -1816,6 +1857,14 @@ scrap_miner = {
 		modifier = {
 			factor = 1.1
 			has_trait = trait_nerve_stapled
+		}
+		modifier = {
+			factor = 0
+			has_trait = trait_holofrixigram
+		}
+		modifier = {
+			factor = 0.5
+			has_trait = trait_holofrixigram_2
 		}
 
 		# low income modifier
