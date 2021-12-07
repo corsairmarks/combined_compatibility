@@ -13,11 +13,12 @@ Overwrites two game files, which are also overwritten in each of the source mods
 
 Only use this mod if you are using [Subtle Polish: A Collection of Fixes and Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089) and/or [Silfae's Portraits: Revisited](https://steamcommunity.com/sharedfiles/filedetails/?id=2596417938).  Because the only conflicts are between the packed mods ["Agrarian" Idyll for Lithoids](https://steamcommunity.com/sharedfiles/filedetails/?id=2510669821) and [Animated Holosphere Portraits: Revisited](https://steamcommunity.com/sharedfiles/filedetails/?id=2592592503), this mod can be used a a compatibility patch between both collection mods, one of the collection mods and the conflicting single mod, or between just the two conflicting single mods.
 
-Built for Stellaris version 3.1.2 "Lem."  Not compatible with achievements.
+Built for Stellaris version 3.2.2 "Herbert."  Not compatible with achievements.
 
 ## Changelog
 
 * 1.0.0 Initial version
+* 2.0.0 Update for compatibility with Stellaris version 3.2.2 "Herbert"
 
 ## Source Code
 
