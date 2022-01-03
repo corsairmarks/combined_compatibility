@@ -19,6 +19,7 @@ Built for Stellaris version 3.2.2 "Herbert."  Not compatible with achievements.
 
 * 1.0.0 Initial version
 * 2.0.0 Update for compatibility with Stellaris version 3.2.2 "Herbert"
+* 2.0.1 Do not gate the Angler job behind being an Anglers empire - some mods may add the ability to gain access to the job for non-Anglers
 
 ## Source Code
 

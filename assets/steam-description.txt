@@ -1,28 +1,21 @@
 [h1]Overview[/h1]
-
 This mod is a compatibility patch between my two major compilation mods [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089]Subtle Polish: A Collection of Fixes and Enhancements[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2596417938]Silfae's Portraits: Revisited[/url].  Both of them make changes to the same Pop jobs files, and thus need a patch so that all the changes are applied concurrently.
 
 [h1]Changes[/h1]
-
 Overwrites two game files, which are also overwritten in each of the source mods, in order to make their changes work together:
-
 [list]
 [*][b]common/pop_jobs/03_worker_jobs.txt[/b]
 [*][b]common/pop_jobs/06_event_jobs.txt[/b]
 [/list]
-
 [h2]Compatibility[/h2]
-
 Only use this mod if you are using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089]Subtle Polish: A Collection of Fixes and Enhancements[/url] and/or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2596417938]Silfae's Portraits: Revisited[/url].  Because the only conflicts are between the packed mods [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2510669821]"Agrarian" Idyll for Lithoids[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2592592503]Animated Holosphere Portraits: Revisited[/url], this mod can be used a a compatibility patch between both collection mods, one of the collection mods and the conflicting single mod, or between just the two conflicting single mods.
 
 Built for Stellaris version 3.2.2 "Herbert."  Not compatible with achievements.
 
 [h2]Changelog[/h2]
-
 See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2626747984]Change Notes[/url]
 
 [h2]Source Code[/h2]
-
 Hosted on [url=https://github.com/corsairmarks/combined_compatibility]GitHub[/url]
 
 [url=https://discord.gg/bHVez2C][img]https://i.imgur.com/4Und3QN.png[/img][/url]
