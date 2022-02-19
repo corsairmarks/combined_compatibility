@@ -4,10 +4,12 @@ This mod is a compatibility patch between my two major compilation mods [Subtle 
 
 # Changes
 
-Overwrites two game files, which are also overwritten in each of the source mods, in order to make their changes work together:
+Overwrites four jobs, which are also overwritten in each of the source mods, in order to make their changes work together:
 
-* `common/pop_jobs/03_worker_jobs.txt`
-* `common/pop_jobs/06_event_jobs.txt`
+* `miner`
+* `scrap_miner`
+* `cave_cleaner`
+* `turtle_miner`
 
 ## Compatibility
 
@@ -15,12 +17,26 @@ Only use this mod if you are using [Subtle Polish: A Collection of Fixes and Enh
 
 Built for Stellaris version 3.3 "Herbert."  Not compatible with achievements.
 
+## Known Issues
+
+Overriding a job causes the game to log errors. Expect to see four lines in the error.log file similar to these:
+
+```
+[00:00:21][game_singleobjectdatabase.h:147]: Object with key: miner already exists, using the one at  file: common/pop_jobs/23_combined_compatibility_worker_jobs.txt line: 7
+[00:00:21][game_singleobjectdatabase.h:147]: Object with key: scrap_miner already exists, using the one at  file: common/pop_jobs/23_combined_compatibility_worker_jobs.txt line: 203
+[00:00:21][game_singleobjectdatabase.h:147]: Object with key: cave_cleaner already exists, using the one at  file: common/pop_jobs/26_combined_compatibilit_event_jobs.txt line: 4
+[00:00:21][game_singleobjectdatabase.h:147]: Object with key: turtle_miner already exists, using the one at  file: common/pop_jobs/26_combined_compatibilit_event_jobs.txt line: 125
+```
+
 ## Changelog
 
 * 1.0.0 Initial version
 * 2.0.0 Update for compatibility with Stellaris version 3.2.2 "Herbert"
 * 2.0.1 Do not gate the Angler job behind being an Anglers empire - some mods may add the ability to gain access to the job for non-Anglers
 * 3.0.0 Update for compatibility with Stellaris version 3.3 "Libra"
+    * Jobs are no longer full-file overwrites!
+    * Only the relevant `miner`, `scrap_miner`, `cave_cleaner`, and `turtle_miner` jobs are overridden
+    * Integrate additional changes from 3.3 to overridden content
 
 ## Source Code
 

@@ -2,15 +2,26 @@
 This mod is a compatibility patch between my two major compilation mods [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089]Subtle Polish: A Collection of Fixes and Enhancements[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2596417938]Silfae's Portraits: Revisited[/url].  Both of them make changes to the same Pop jobs files, and thus need a patch so that all the changes are applied concurrently.
 
 [h1]Changes[/h1]
-Overwrites two game files, which are also overwritten in each of the source mods, in order to make their changes work together:
+Overwrites four jobs, which are also overwritten in each of the source mods, in order to make their changes work together:
 [list]
-[*][b]common/pop_jobs/03_worker_jobs.txt[/b]
-[*][b]common/pop_jobs/06_event_jobs.txt[/b]
+[*]miner
+[*]scrap_miner
+[*]cave_cleaner
+[*]turtle_miner
 [/list]
 [h2]Compatibility[/h2]
 Only use this mod if you are using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089]Subtle Polish: A Collection of Fixes and Enhancements[/url] and/or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2596417938]Silfae's Portraits: Revisited[/url].  Because the only conflicts are between the packed mods [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2510669821]"Agrarian" Idyll for Lithoids[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2592592503]Animated Holosphere Portraits: Revisited[/url], this mod can be used a a compatibility patch between both collection mods, one of the collection mods and the conflicting single mod, or between just the two conflicting single mods.
 
 Built for Stellaris version 3.3 "Libra."  Not compatible with achievements.
+
+[h2]Known Issues[/h2]
+Overriding a job causes the game to log errors. Expect to see four lines in the error.log file similar to these:
+[code]
+[00:00:21][game_singleobjectdatabase.h:147]: Object with key: miner already exists, using the one at  file: common/pop_jobs/23_combined_compatibility_worker_jobs.txt line: 7
+[00:00:21][game_singleobjectdatabase.h:147]: Object with key: scrap_miner already exists, using the one at  file: common/pop_jobs/23_combined_compatibility_worker_jobs.txt line: 203
+[00:00:21][game_singleobjectdatabase.h:147]: Object with key: cave_cleaner already exists, using the one at  file: common/pop_jobs/26_combined_compatibilit_event_jobs.txt line: 4
+[00:00:21][game_singleobjectdatabase.h:147]: Object with key: turtle_miner already exists, using the one at  file: common/pop_jobs/26_combined_compatibilit_event_jobs.txt line: 125
+[/code]
 
 [h2]Changelog[/h2]
 See [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2626747984]Change Notes[/url]
