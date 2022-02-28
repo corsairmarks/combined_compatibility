@@ -1,6 +1,8 @@
 # Overview
 
-This mod is a compatibility patch between my two major compilation mods [Subtle Polish: A Collection of Fixes and Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089) and [Silfae's Portraits: Revisited](https://steamcommunity.com/sharedfiles/filedetails/?id=2596417938).  Both of them make changes to the same Pop jobs files, and thus need a patch so that all the changes are applied concurrently.
+This mod is a compatibility patch between my two major compilation mods [Subtle Polish: A Collection of Fixes and Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089) and [Silfae's Portraits: Revisited](https://steamcommunity.com/sharedfiles/filedetails/?id=2596417938).  Both of them make changes to the same Pop jobs files, and thus need a patch so that their changes are applied concurrently.
+
+As of Stellaris version 3.3 "Libra," this mod has drastically shrunk in size.  The only remaining conflicts are 4 miner-related jobs.
 
 # Changes
 
