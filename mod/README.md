@@ -1,3 +1,5 @@
+**_DEPRECATED:_** As of the 3.4 "Cepheus" versions of Stellaris, there are no conflicts between "Subtle Polish: A Collection of Fixes and Enhancements" and "Silfae's Portraits: Revisited." Do not use this mod.
+
 # Overview
 
 This mod is a compatibility patch between my two major compilation mods [Subtle Polish: A Collection of Fixes and Enhancements](https://steamcommunity.com/sharedfiles/filedetails/?id=2522974089) and [Silfae's Portraits: Revisited](https://steamcommunity.com/sharedfiles/filedetails/?id=2596417938).  Both of them make changes to the same Pop jobs files, and thus need a patch so that their changes are applied concurrently.
@@ -39,6 +41,7 @@ Overriding a job causes the game to log errors. Expect to see four lines in the 
     * Jobs are no longer full-file overwrites!
     * Only the relevant `miner`, `scrap_miner`, `cave_cleaner`, and `turtle_miner` jobs are overridden
     * Integrate additional changes from 3.3 to overridden content
+* 3.0.1 Mark as deprecated - unnecessary in Stellaris 3.4 "Cepheus" and higher
 
 ## Source Code
 
